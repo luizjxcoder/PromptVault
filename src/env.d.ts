@@ -4,7 +4,10 @@ export {};
 
 declare global {
   interface Env {
-    // Adicione aqui as suas variáveis de ambiente da Vercel
+       GOOGLE_APPS_SCRIPT_WEBHOOK_URL: string;
+       MOCHA_USERS_SERVICE_API_KEY: string;
+       MOCHA_USERS_SERVICE_API_URL: string;
+
     // Exemplo:
     DATABASE_URL: string;
     API_KEY: string;
