@@ -1,0 +1,2 @@
+
+ALTER TABLE prompts ADD COLUMN exported_to_sheets BOOLEAN DEFAULT FALSE;
