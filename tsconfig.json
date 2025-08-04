@@ -1,19 +1,17 @@
 {
-  "files": [],
-  "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" },
-    { "path": "./tsconfig.worker.json" }
-  ]
-}
-// no seu arquivo tsconfig.json
-{
   "compilerOptions": {
-    // ...suas outras configurações
+    "forceConsistentCasingInFileNames": true,
+    "strict": true
   },
   "include": [
     "src/**/*.ts",
     "src/**/*.d.ts" // Garante que arquivos .d.ts em 'src' sejam lidos
     // ou simplesmente "src" se você quiser incluir tudo dentro da pasta
+  ],
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" },
+    { "path": "./tsconfig.worker.json" }
   ]
 }
