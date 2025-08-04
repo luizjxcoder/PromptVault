@@ -3,10 +3,6 @@
     "forceConsistentCasingInFileNames": true,
     "strict": true
   },
-  "include": [
-    "src" // Garante que arquivos .d.ts em 'src' sejam lidos
-    // ou simplesmente "src" se você quiser incluir tudo dentro da pasta
-  ],
   "files": [],
   "references": [
     { "path": "./tsconfig.app.json" },
@@ -14,3 +10,4 @@
     { "path": "./tsconfig.worker.json" }
   ]
 }
+
