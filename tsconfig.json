@@ -4,8 +4,7 @@
     "strict": true
   },
   "include": [
-    "src/**/*.ts",
-    "src/**/*.d.ts" // Garante que arquivos .d.ts em 'src' sejam lidos
+    "src" // Garante que arquivos .d.ts em 'src' sejam lidos
     // ou simplesmente "src" se você quiser incluir tudo dentro da pasta
   ],
   "files": [],
